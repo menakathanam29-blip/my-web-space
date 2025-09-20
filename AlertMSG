@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .alert{
+            padding:30px;
+            background-color: #e41111fd;
+            background-image: url('Warning.jfif');
+            color: white;
+        }
+        .closebtn{
+            margin-left: 15px;
+            color: aliceblue;
+            font-weight: bold;
+            float: right;
+            font-size: 29px;
+            line-height: 30px;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+        .closebtn:hover{
+            color: rgb(221, 26, 26);
+        }
+    </style>
+</head>
+<body>
+    <h2>Alert Messages</h2>
+    <p>Warning <b>'!'</b> Unauthorized access detected.</p>
+    <div class="alert">
+        <span class="closebtn" onclick="alert('critical Error!')"></span>
+        <strong>Danger! </strong> Error! Something went seriously wrong.
+    </div>
+</body>
+</html>
