@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+div {
+  margin-bottom: 18px;
+  padding: 7px 17px;
+}
+
+.danger {
+  background-color: #ec4e4e;
+  border-left: 15px solid #e20a0a;
+}
+
+.success {
+  background-color: #1ca723;
+  border-left: 15px solid #043f07;
+}
+
+.info {
+  background-color: #7ab3e9;
+  border-left: 15px solid #044a83;
+}
+
+
+.warning {
+  background-color: #f3dd1a;
+  border-left: 15px solid #c99b05;
+}
+</style>
+</head>
+<body style="background-image: url('alertimg.jfif');
+background-size:contain ;background-repeat: no-repeat;background-position: center;">
+
+<h1><b>Notes</b></h1>
+<div class="danger">
+  <p><strong>Danger!</strong> Prohibited Area</p>
+</div>
+
+<div class="success">
+  <p><strong>Success!</strong> Small steps create big success</p>
+</div>
+
+<div class="info">
+  <p><strong>Info!</strong> Accurate info is important for success</p>
+</div>
+
+<div class="warning">
+  <p><strong>Warning!</strong> Do not enter without permission</p>
+</div>
+
+</body>
+</html>
