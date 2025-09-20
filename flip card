@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 500px;
+  height: 500px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(155, 137, 137, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(200deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #f19edd;
+  color: rgb(175, 22, 129);
+}
+
+.flip-card-back {
+  background-color: #15095c;
+  color: white;
+  transform: rotateY(180deg);
+}
+</style>
+</head>
+<body>
+
+<h1>Every soul is shiva</h1>
+<h3>Shiva resides every heartbeat:</h3>
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="sivan.jpg" alt="sivan" style="width:500px;height:500px;">
+    </div>
+    <div class="flip-card-back">
+      <h1 style="font-size: xx-large;">Sivamayam</h1> 
+      <p style="font-size:x-large ;">OHM NAMASIVAYA</p> 
+      <p style="font-size: larger;"></p><b>Where is shiva,there is peace</b></p>
+      
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
