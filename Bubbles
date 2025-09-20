@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body,html{
+  width:100%;
+  height: 100%;
+}
+body{
+  margin:0;
+  padding:0;
+  background:whitesmoke;
+  background-image:url('rainbow4.jfif');
+  background-repeat: repeat;
+  background-size: contain;
+}
+.bubbles{
+  position:absolute;
+  width:100%;
+  height: 100%;
+  z-index:0;
+  overflow:hidden;
+  top:0;
+  left:0;
+}
+.bubble{
+  position: absolute;
+  bottom:-100px;
+  width:40px;
+  height: 40px;
+  background:#0958be;
+  border-radius:50%;
+  opacity:0.5;
+  animation: rise 10s infinite ease-in;
+}
+.bubble:nth-child(1){
+  width:40px;
+  height:40px;
+  background:rgb(6, 43, 3);
+  left:10%;
+  animation-duration:8s;
+}
+.bubble:nth-child(2){
+  width:20px;
+  height:20px;
+  background:rgb(247, 224, 16);
+  left:20%;
+  animation-duration:5s;
+  animation-delay:1s;
+}
+.bubble:nth-child(3){
+  width:50px;
+  height:50px;
+  background:rgb(245, 10, 245);
+  left:35%;
+  animation-duration:7s;
+  animation-delay:2s;
+}
+.bubble:nth-child(4){
+  width:80px;
+  height:80px;
+  background:rgb(243, 158, 0);
+  left:50%;
+  animation-duration:11s;
+  animation-delay:0s;
+}
+.bubble:nth-child(5){
+  width:95px;
+  height:95px;
+  background:rgb(243, 4, 4);
+  left:55%;
+  animation-duration:6s;
+  animation-delay:1s;
+}
+.bubble:nth-child(6){
+  width:45px;
+  height:45px;
+  background:rgb(5, 51, 175);
+  left:65%;
+  animation-duration:8s;
+  animation-delay:3s;
+}
+.bubble:nth-child(7){
+  width:90px;
+  height:90px;
+  background:rgb(197, 118, 207);
+  left:70%;
+  animation-duration:12s;
+  animation-delay:2s;
+}
+.bubble:nth-child(8){
+  width:35px;
+  height:35px;
+  background:rgb(1, 46, 1);
+  left:80%;
+  animation-duration:6s;
+  animation-delay:2s;
+}
+.bubble:nth-child(9){
+  width:100px;
+  height:100px;
+  background:rgb(223, 14, 212);
+  left:70%;
+  animation-duration:5s;
+  animation-delay:1s;
+}
+.bubble:nth-child(10){
+  width:90px;
+  height:90px;
+  background:rgb(5, 52, 209);
+  left:25%;
+  animation-duration:10s;
+  animation-delay:4s;
+}
+.bubble:nth-child(11){
+  width:65px;
+  height:65px;
+  background:rgb(239, 243, 5);
+  right:25%;
+  animation-duration:4s;
+  animation-delay:3s;
+}
+.bubble:nth-child(12){
+  width:55px;
+  height:60px;
+  background:rgb(47, 223, 24);
+  left:45%;
+  animation-duration:4s;
+  animation-delay:3s;
+}.bubble:nth-child(13){
+  width:25px;
+  height:25px;
+  background:rgb(211, 120, 2);
+  left:25%;
+  animation-duration:5s;
+  animation-delay:4s;
+}.bubble:nth-child(14){
+  width:85px;
+  height:85px;
+  background:rgb(26, 90, 95);
+  left:15%;
+  animation-duration:2s;
+  animation-delay:2s;
+}
+.bubble:nth-child(15){
+  width:15px;
+  height:15px;
+  background:rgb(6, 224, 122);
+  left:45%;
+  animation-duration:6s;
+  animation-delay:3s;
+}.bubble:nth-child(13){
+  width:100px;
+  height:100px;
+  background:rgb(224, 6, 213);
+  nav-left:50%;
+  animation-duration:8s;
+  animation-delay:6s;
+}
+@keyframes rise{
+  0%{
+    bottom:-100px;
+    transform:translateX(0);
+  }
+  50%{
+    transform:translate(100px);
+  }
+  100%{
+    bottom:1080px;
+    transform:translateX(-200px);
+  }
+}
+</style>
+<body>
+    
+<section class="sticky">
+  <div class="bubbles">
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    <div class="bubble"></div>
+    
+  </div>
+</section>
+</body>
+</html>
