@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width,initial-scale=1.0">
+        <title>LOGIN</title>
+        <style>
+          body  {
+            
+                background-color: rgb(172, 9, 187);
+                background-image:url('purple.JFIF');
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size:  cover;
+                color:rgb(211, 223, 226);
+            }
+            #heading1{
+                margin-top: 0px;
+                background-color:rgb(177, 20, 169);
+                padding: 30px;
+                text-align:center;
+
+            }
+            #heading2{
+                text-align: center;
+                color: beige;
+                margin-top: 50px;
+
+            }
+            div{
+                background-color:antiquewhite(34,65,87);
+                text-align: center;
+                width: 500px;
+                height:300px;
+                padding-top: 20px;
+                border-style: solid;
+                border-color:rgb(226, 243, 236);
+                border-width: 2px;
+                border-radius: 30px;
+                margin-left: 370px;
+            }
+        </style>
+    </head>
+    <body> 
+   <h1 id="heading1">WELCOME TO OUR SITE</h1> 
+   <div>
+    <h1 id=""heading2>Login Page</h1>
+    <input type="text" placeholder="username" required><br><br>
+    <input type="password" placeholder="password" required><br><br>
+    <button type="submit">Login</button>
+    <button type="reset">Reset</button><br><br>
+
+</div>
+    </body>
+</html>
